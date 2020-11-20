@@ -39,10 +39,11 @@ public class MathUtilityTest {
     //do đó dùng hàm assertX() là ko đc, vì ko là value để so
     //ta phải dùng kĩ thuật khác
     @Test(expected = IllegalArgumentException.class)
-    public void getFactorial_ThrowsException_IfInvalidArgument() {
+    public void getFactorial_ThrowsException_IfInvalidArgument() {        
         MathUtility.getFactorial(-5);
     }
-            
+    //tui mún thấy màu xanh trên server, thấy tích xanh luôn
+    
             
     
 }
